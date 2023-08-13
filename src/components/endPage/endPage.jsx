@@ -16,7 +16,7 @@ function EndPage({handleSubmit,name,setName,email,setEmail}) {
         
           <div className="pb-16  m-auto md:max-w-[340px]">
             <div className="py-5 mb-9 mt-4 ">
-             <p className="text-center font-[620] text-xl md:text-2xl">Congratulations on completing the quiz! <br /> Now claim your results.</p> 
+             <p className="text-center font-[620] text-xl md:text-2xl">Congratulations on completing the assessment! <br /> Now claim your results.</p> 
             </div>
             <div className="flex flex-col overflow-hidden">
                 <input type="text" placeholder="Your Name" className="w-[260px] h-[49px] mx-auto rounded-xl border-4 border-[#c0c0c065] md:w-[340px] md:h-[60px] pl-3" value={name} onChange={function(e){

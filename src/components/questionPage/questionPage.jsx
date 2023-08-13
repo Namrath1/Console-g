@@ -145,7 +145,7 @@ export default function QuestionPage(props) {
                                 {questions[qno].options.map(opt => {
 
                                     return (
-                                        <div className="h-[75px] max-w-[290px] px-[15px] py-2 shadow-md  bg-white  mb-5 mx-auto rounded-xl text-sm  md:h-[90px] md:max-w-[400px] md:px-[15px] md:pt-[18px] md:pb-[4px] md:text-lg border-2 border-[#c0c0c065] hover:border-[#762a2a] hover:text-white hover:bg-[#800000d0] text-center  cursor-pointer " onClick={handleClick} id={opt.pts} >
+                                        <div className="h-[75px] max-w-[290px] px-[15px] shadow-md  bg-white  mb-5 mx-auto rounded-xl text-sm  md:h-[90px] md:max-w-[400px] md:px-[15px]   md:text-lg border-2 border-[#c0c0c065] hover:border-[#762a2a] hover:text-white hover:bg-[#800000d0]  cursor-pointer flex items-center justify-center md:whitespace-pre-line" onClick={handleClick} id={opt.pts} >
                                             {opt.option}
                                         </div>)
                                 })}
