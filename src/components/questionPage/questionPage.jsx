@@ -87,7 +87,7 @@ export default function QuestionPage(props) {
 
 
                         {qno < questions.length && qno >= 0 ? (
-                            <div className="font-Helvectica  text-center max-w-[250px] m-auto flex-col overflow-hidden flex-wrap  md:max-w-[500px]  show mb-10" id="fade-in">
+                            <div className=" text-center max-w-[250px] m-auto flex-col overflow-hidden flex-wrap  md:max-w-[500px]  show mb-10" id="fade-in">
 
                                 <div className="flex justify-center">
                                     <div className="w-[20%] cursor-pointer" onClick={getBack}>
@@ -141,11 +141,11 @@ export default function QuestionPage(props) {
                                         className="mb-6"
                                     />
                                 </div>
-                                <h3 className="font-semibold text-lg pt-5 mb-10 md:text-2xl text-[#800000] ">{questions[qno].question}</h3>
+                                <h3 className="font-BiennaleBold text-lg pt-5 mb-10 md:text-2xl text-[#800000] ">{questions[qno].question}</h3>
                                 {questions[qno].options.map(opt => {
 
                                     return (
-                                        <div className="h-[75px] max-w-[290px] px-[15px] shadow-md  bg-white  mb-5 mx-auto rounded-xl text-sm  md:h-[90px] md:max-w-[400px] md:px-[15px]   md:text-lg border-2 border-[#c0c0c065] hover:border-[#762a2a] hover:text-white hover:bg-[#800000d0]  cursor-pointer flex items-center justify-center md:whitespace-pre-line" onClick={handleClick} id={opt.pts} >
+                                        <div className="font-BiennaleMedium h-[75px] max-w-[290px] px-[15px] shadow-md  bg-white  mb-5 mx-auto rounded-xl text-sm  md:h-[90px] md:max-w-[400px] md:px-[15px]   md:text-lg border-2 border-[#c0c0c065] hover:border-[#762a2a] hover:text-white hover:bg-[#800000d0]  cursor-pointer flex items-center justify-center md:whitespace-pre-line" onClick={handleClick} id={opt.pts} >
                                             {opt.option}
                                         </div>)
                                 })}

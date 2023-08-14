@@ -8,6 +8,13 @@ export default {
     extend: {
       fontFamily : {
         'Helvectica':['Helvetica', 'Arial', 'sans-serif'],
+        'BiennaleBold' : ['BiennaleBold'],
+        'BiennaleHeavy' : ['BiennaleHeavy'],
+        'BiennaleSemiBoldItalic' : ['BiennaleSemiBoldItalic'],
+        'BiennaleMedium' : ['BiennaleMedium'],
+        'BiennaleBook' : ['BiennaleBook'],
+        'BiennaleBlack' : ['BiennaleBlack'],
+        'BiennaleRegular' : ['BiennaleRegular'],
       }
     },
   },

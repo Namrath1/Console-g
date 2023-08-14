@@ -27,17 +27,26 @@ const questions = [
             "option": `I have most of the skills/gifts to reach 
         my dreams`, "pts": 8
         },
-        { "option": "I have all the skills/gifts to reach my dreams", "pts": 10 }]
+        {
+            "option": `I have all the skills/gifts to reach 
+        my dreams`, "pts": 10
+        }]
     },
 
     {
         "question": "Which answer below best describes your current communication level?		",
 
-        "options": [{ "option": "I never share my strengths, needs or dreams", "pts": 0 },
+        "options": [{
+            "option": `I never share my strengths, needs 
+        or dreams`, "pts": 0
+        },
         { "option": "I'm not sure where to start sharing (strengths, needs or dreams)", "pts": 2 },
         { "option": "I want to share my strengths, dreams and needs but not comfortable doing so", "pts": 4 },
         { "option": "I share my strengths, needs or dreams but only with close friends/family", "pts": 6 },
-        { "option": "I often share my strengths, needs or dreams", "pts": 8 },
+        {
+            "option": `I often share my strengths, needs
+         or dreams`, "pts": 8
+        },
         { "option": "I easily and openly share my strengths, needs or dreams", "pts": 10 }]
     },
 
@@ -45,13 +54,22 @@ const questions = [
         "question": "Which answer below best describes your current connection level?",
 
         "options": [{ "option": "I'm not getting any help from my network", "pts": 0 },
-        { "option": `I have a network but I don't know what to 
-        do with it`, "pts": 2 },
-        { "option": `I have a pretty good network but I don't 
-        use it much`, "pts": 4 },
-        { "option": `I have a pretty good network and I 
-        use it regularly`, "pts": 6 },
-        { "option": "I am actively growing and utilizing my network", "pts": 8 },
+        {
+            "option": `I have a network but I don't know what to 
+        do with it`, "pts": 2
+        },
+        {
+            "option": `I have a pretty good network but I don't 
+        use it much`, "pts": 4
+        },
+        {
+            "option": `I have a pretty good network and I 
+        use it regularly`, "pts": 6
+        },
+        {
+            "option": `I am actively growing and utilizing 
+        my network`, "pts": 8
+        },
         { "option": "My network is propelling me forward", "pts": 10 }]
     }
 ]

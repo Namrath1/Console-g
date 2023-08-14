@@ -1,0 +1,107 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Lufga Complete Family by Adam Ladd
+ * URL: https://www.myfonts.com/products/lufga-complete-family-package-244947
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ * 
+ * © 2023 MyFonts Inc. */
+
+
+  
+@font-face {
+  font-family: "BiennaleHair";
+  src: url('webFonts/BiennaleHair/font.woff2') format('woff2'), url('webFonts/BiennaleHair/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleThin";
+  src: url('webFonts/BiennaleThin/font.woff2') format('woff2'), url('webFonts/BiennaleThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleBlack";
+  src: url('webFonts/BiennaleBlack/font.woff2') format('woff2'), url('webFonts/BiennaleBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleBook";
+  src: url('webFonts/BiennaleBook/font.woff2') format('woff2'), url('webFonts/BiennaleBook/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleUltraLightItalic";
+  src: url('webFonts/BiennaleUltraLightItalic/font.woff2') format('woff2'), url('webFonts/BiennaleUltraLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleUltraLight";
+  src: url('webFonts/BiennaleUltraLight/font.woff2') format('woff2'), url('webFonts/BiennaleUltraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleHairlineItalic";
+  src: url('webFonts/BiennaleHairlineItalic/font.woff2') format('woff2'), url('webFonts/BiennaleHairlineItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleMedium";
+  src: url('webFonts/BiennaleMedium/font.woff2') format('woff2'), url('webFonts/BiennaleMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleLightItalic";
+  src: url('webFonts/BiennaleLightItalic/font.woff2') format('woff2'), url('webFonts/BiennaleLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleLight";
+  src: url('webFonts/BiennaleLight/font.woff2') format('woff2'), url('webFonts/BiennaleLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleRegular";
+  src: url('webFonts/BiennaleRegular/font.woff2') format('woff2'), url('webFonts/BiennaleRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleBoldItalic";
+  src: url('webFonts/BiennaleBoldItalic/font.woff2') format('woff2'), url('webFonts/BiennaleBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleRegularItalic";
+  src: url('webFonts/BiennaleRegularItalic/font.woff2') format('woff2'), url('webFonts/BiennaleRegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleBlackItalic";
+  src: url('webFonts/BiennaleBlackItalic/font.woff2') format('woff2'), url('webFonts/BiennaleBlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleSemiBold";
+  src: url('webFonts/BiennaleSemiBold/font.woff2') format('woff2'), url('webFonts/BiennaleSemiBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleBookItalic";
+  src: url('webFonts/BiennaleBookItalic/font.woff2') format('woff2'), url('webFonts/BiennaleBookItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleMediumItalic";
+  src: url('webFonts/BiennaleMediumItalic/font.woff2') format('woff2'), url('webFonts/BiennaleMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleSemiBoldItalic";
+  src: url('webFonts/BiennaleSemiBoldItalic/font.woff2') format('woff2'), url('webFonts/BiennaleSemiBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleHeavy";
+  src: url('webFonts/BiennaleHeavy/font.woff2') format('woff2'), url('webFonts/BiennaleHeavy/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleThinItalic";
+  src: url('webFonts/BiennaleThinItalic/font.woff2') format('woff2'), url('webFonts/BiennaleThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleHeavyItalic";
+  src: url('webFonts/BiennaleHeavyItalic/font.woff2') format('woff2'), url('webFonts/BiennaleHeavyItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "BiennaleBold";
+  src: url('webFonts/BiennaleBold/font.woff2') format('woff2'), url('webFonts/BiennaleBold/font.woff') format('woff');
+}
+

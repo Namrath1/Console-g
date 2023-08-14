@@ -6,7 +6,7 @@
 
     opacity: 0;
     transition: all .75s ease;
-    
+
 }
 
 #fade-in.show {
@@ -14,8 +14,9 @@
     width: max-content;
 }
 
-html{
+html {
     background-image: url('./assets/backgroundGrey.png');
     background-attachment: fixed;
     background-size: cover;
 }
+
