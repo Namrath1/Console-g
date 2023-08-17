@@ -7,7 +7,7 @@ import FilledCircle from "../../assets/loader.png";
 import EmptyCirle from "../../assets/radiusLoader.png";
 import BackButton from "../../assets/backButton.png";
 import LogoRipple from "../../assets/logoAnimated.gif";
-
+import nxGenLogo from "../../assets/nxGenLogo.svg"
 
 export default function QuestionPage(props) {
     const navigate = useNavigate();
@@ -17,7 +17,7 @@ export default function QuestionPage(props) {
     const [email, setEmail] = useState("");
     const [name, setName] = useState("");
     const mainUrl = "https://lsbackend.onrender.com";
-    const testUrl = "http://localhost:3000"; 
+    const testUrl = "http://localhost:3000";
 
     const handleSubmit = (e) => {
         console.log(results);
@@ -32,7 +32,7 @@ export default function QuestionPage(props) {
 
         console.log(body);
 
-        axios.post(mainUrl+"/assess", body)
+        axios.post(mainUrl + "/assess", body)
             .then(resp => {
                 console.log(resp);
             })
@@ -60,8 +60,8 @@ export default function QuestionPage(props) {
 
     }
     const getBack = (e) => {
-        if(qno === 0){
-           navigate("/")
+        if (qno === 0) {
+            navigate("/")
         }
         if (qno > 0) {
             const ele = document.querySelector("#fade-in");
@@ -83,34 +83,42 @@ export default function QuestionPage(props) {
             <div className="px-3">
                 <div className="max-w-[95%] max-h-fit rounded md:rounded-full m-auto md:my-9  md:max-w-[85%]">
                     <div className='qCard'>
+                        <nav class="flex justify-center  pt-3  top-0">
 
+                            <img
+                                class="mx-10 mb-3 h-20"
+                                src={nxGenLogo}
+                                alt="logo.svg"
+                            />
+                        </nav>
 
 
                         {qno < questions.length && qno >= 0 ? (
-                            <div className=" text-center max-w-[250px] m-auto flex-col overflow-hidden flex-wrap  md:max-w-[500px]  show mb-10" id="fade-in">
+                            <div className=" text-center max-w-[280px] m-auto flex-col overflow-hidden flex-wrap  md:max-w-fit justify-center  show mb-10" id="fade-in">
 
                                 <div className="flex justify-center">
-                                    <div className="w-[20%] cursor-pointer" onClick={getBack}>
+                                    <div className="w-[20%] cursor-pointer " onClick={getBack}>
 
                                         <img
                                             width="17px"
                                             color="#800000"
                                             src={BackButton}
                                             alt="logo.svg"
-                                            className="my-20 "
+                                            className="my-10 pt-1 "
 
                                         />
                                     </div>
-                                    <div className="w-[80%] flex ml-[20%]">
+                                    <div className="w-[80%] flex ml-[20%] md:ml-[21%] md:-mr-[10%]">
                                         {questions.map((val, idx) => {
                                             if (idx < qno) {
                                                 return (<>
                                                     <img
                                                         width="15px"
+                                                        height="15px"
                                                         color="#800000"
                                                         src={FilledCircle}
                                                         alt="logo.svg"
-                                                        className="my-20 ml-1 md:ml-4"
+                                                        className="my-11 ml-1 md:ml-4"
                                                     />
                                                 </>)
                                             }
@@ -119,10 +127,11 @@ export default function QuestionPage(props) {
                                                     <>
                                                         <img
                                                             width="15px"
+                                                            height="15px"
                                                             color="#800000"
                                                             src={EmptyCirle}
                                                             alt="radiusLoader.svg"
-                                                            className="my-20 ml-1 md:ml-4"
+                                                            className="my-11 ml-1 md:ml-4"
                                                         />
                                                     </>
                                                 )
@@ -134,14 +143,14 @@ export default function QuestionPage(props) {
                                 </div>
                                 <div className="flex justify-center">
                                     <img
-                                        width="53px"
+                                        width="80px"
                                         color="#800000"
                                         src={LogoRipple}
                                         alt="radiusLoader.svg"
                                         className="mb-6"
                                     />
                                 </div>
-                                <h3 className="font-BiennaleBold text-lg pt-5 mb-10 md:text-2xl text-[#800000] ">{questions[qno].question}</h3>
+                                <h3 className="font-BiennaleBold text-lg md:max-w-[650px] pt-5 mb-10 md:text-2xl text-[#800000] ">{questions[qno].question}</h3>
                                 {questions[qno].options.map(opt => {
 
                                     return (
