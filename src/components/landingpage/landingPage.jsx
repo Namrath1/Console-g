@@ -39,19 +39,19 @@ function LandingPage() {
         </div>
 
         <div class="flex flex-col mt-7 mx-[4.5rem] pb-20 flex-wrap content-around md:flex md:flex-row md:justify-center md:space-x-10 md:mx-auto ">
-          <div class=" h-32 w-32 md:h-40 md:w-40 mt-7  rounded-full text-center bg-[#800000]  drop-shadow-xl ">
+          <div class=" h-32 w-32 md:h-40 md:w-40 mt-7  rounded-full text-center bg-[#800000]  drop-shadow-xl hover:bg-[#b22222]">
             <Link to={"/assess"}>
               <div class="font-BiennaleBook py-[3.3rem] md:pt-[4rem] px-5 text-white text-xl">Exploring</div>
             </Link>
           </div>
 
-          <div class=" h-32 w-32 md:h-40 md:w-40 mt-7  rounded-full text-center bg-[#800000]  drop-shadow-xl ">
+          <div class=" h-32 w-32 md:h-40 md:w-40 mt-7  rounded-full text-center bg-[#800000]  drop-shadow-xl hover:bg-[#b22222]">
             <Link to={"/assess"}>
               <div class="font-BiennaleBook pt-11 md:py-[3.3rem] px-6 text-white text-xl">Aspiring Director</div>
             </Link>
           </div>
 
-          <div class=" h-32 w-32 md:h-40 md:w-40 mt-7 rounded-full text-center bg-[#800000]  drop-shadow-xl ">
+          <div class=" h-32 w-32 md:h-40 md:w-40 mt-7 rounded-full text-center bg-[#800000]  drop-shadow-xl hover:bg-[#b22222]">
             <Link to={"/assess"}>
               <div class="font-BiennaleBook pt-11 md:py-[3.3rem] px-6 text-white text-xl">Existing Director</div>
             </Link>

@@ -22,7 +22,7 @@ function EndPage({ handleSubmit, name, setName, email, setEmail }) {
             setEmail(e.target.value);
           }} />
 
-          <button className="font-BiennaleRegular w-[180px] h-[50px] mx-auto border-4 border-[#c0c0c065] bg-[#800000d0] rounded-xl  text-white md:w-[200px] md:h-[60px] " onClick={handleSubmit}>
+          <button className="font-BiennaleRegular w-[180px] h-[50px] mx-auto hover:bg-[#b22222] border-4 border-[#c0c0c065] bg-[#800000d0] rounded-xl  text-white md:w-[200px] md:h-[60px] " onClick={handleSubmit}>
             Show Me My Results!
           </button>
 
