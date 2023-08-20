@@ -94,7 +94,7 @@ export default function QuestionPage(props) {
 
 
                         {qno < questions.length && qno >= 0 ? (
-                            <div className=" text-center max-w-[280px] m-auto flex-col overflow-hidden flex-wrap  md:max-w-fit justify-center  show mb-10" id="fade-in">
+                            <div className=" text-center max-w-[300px] m-auto flex-col overflow-hidden flex-wrap  md:max-w-fit justify-center  show mb-10" id="fade-in">
 
                                 <div className="flex justify-center">
                                     <div className="w-[20%] cursor-pointer " onClick={getBack}>
