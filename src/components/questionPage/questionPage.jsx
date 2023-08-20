@@ -108,7 +108,7 @@ export default function QuestionPage(props) {
 
                                         />
                                     </div>
-                                    <div className="w-[80%] flex ml-[20%] md:ml-[21%] md:-mr-[10%]">
+                                    <div className="w-[80%] flex ml-[20%] md:ml-[14%] md:-mr-[10%]">
                                         {questions.map((val, idx) => {
                                             if (idx < qno) {
                                                 return (<>
