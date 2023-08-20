@@ -150,7 +150,7 @@ export default function QuestionPage(props) {
                                         className="mb-6"
                                     />
                                 </div>
-                                <h3 className="font-BiennaleBold text-lg md:max-w-[650px] pt-5 mb-10 md:text-2xl text-[#800000] ">{questions[qno].question}</h3>
+                                <h3 className="font-BiennaleBold text-lg md:max-w-[650px] pt-5 mb-10 md:text-2xl text-[#800000] md:whitespace-pre-line">{questions[qno].question}</h3>
                                 {questions[qno].options.map(opt => {
 
                                     return (

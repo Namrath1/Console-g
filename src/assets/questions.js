@@ -1,6 +1,7 @@
 const questions = [
     {
-        "question": "Which answer below best describes your current visualization/dream level?",
+        "question": `Which answer below best describes your
+         current dream level?`,
 
         "options": [{ "option": "I am only focused on today", "pts": 0 },
         { "option": "I am just starting to dream of more/different", "pts": 2 },
@@ -14,7 +15,8 @@ const questions = [
     },
 
     {
-        "question": "Which answer below best describes how you currently view your personal strengths/assets?",
+        "question": `Which answer below best describes how you 
+        currently view your personal assets?`,
 
         "options": [{
             "option": `I don't have any of the skills to 
@@ -39,7 +41,8 @@ const questions = [
     },
 
     {
-        "question": "Which answer below best describes your current communication level?		",
+        "question": `Which answer below best describes your 
+        current communication level?`,
 
         "options": [{
             "option": `I never share my strengths,
@@ -56,7 +59,8 @@ const questions = [
     },
 
     {
-        "question": "Which answer below best describes your current connection level?",
+        "question": `Which answer below best describes your 
+        current connection level?`,
 
         "options": [{ "option": "I'm not getting any help from my network", "pts": 0 },
         {
