@@ -35,10 +35,13 @@ export default function QuestionPage(props) {
         axios.post(mainUrl + "/assess", body)
             .then(resp => {
                 console.log(resp);
+
             })
             .catch(err => {
                 console.log(err);
+
             });
+        navigate("/thankYou");
     }
 
     const handleClick = (e) => {

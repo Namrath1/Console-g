@@ -1,8 +1,9 @@
 import React from "react";
 import "./endPage.css";
-import nxGenLogo from "../../assets/nxGenLogo.svg"
+
 
 function EndPage({ handleSubmit, name, setName, email, setEmail }) {
+  
   return (
 
     <div className=" px-3">
